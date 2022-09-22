@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap");
+body {
+  color: rgb(102, 168, 69);
+  display: flex;
+  justify-content: center;
+}
+body header {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 2px solid green;
+  border-bottom: 2px solid green;
+  margin-top: 25px;
+}
+body header .home {
+  text-decoration: none;
+  color: green;
+  font-family: "Inter", sans-serif;
+}
+body header ul {
+  display: flex;
+  list-style-type: none;
+}
+body header ul a {
+  text-decoration: none;
+  color: green;
+  font-family: "Inter", sans-serif;
+  white-space: nowrap;
+  font-size: 1.5rem;
+  margin-left: 20px;
+}
